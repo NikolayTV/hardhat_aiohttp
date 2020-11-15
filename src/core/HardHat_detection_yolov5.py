@@ -31,7 +31,7 @@ class Hardhat_detection_yolov5():
         self.draw = draw
 
         # Load self.model
-        weights = '/home/nikolay/workspace/CvWebStand/models/best.pt'
+        weights = '../../models/best.pt'
         self.model = attempt_load(weights, map_location=self.device)  # load FP32 self.model
         
         # Get self.names and self.colors

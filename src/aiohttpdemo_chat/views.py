@@ -10,13 +10,20 @@ from PIL import Image
 from aiohttp import web
 from faker import Faker
 from core.HardHat_detection_yolov5 import Hardhat_detection_yolov5
+from core.hardhat_classifier_fastai import Clasp_glasses_classifier
+from core.utils.general import plot_one_box
+
 import sys
 sys.path.insert(0, '../core/')
 
 
 log = logging.getLogger(__name__)
 
-hardhat_detector = Hardhat_detection_yolov5(view=False, draw=True)
+# Load detector
+hardhat_detector = Hardhat_detection_yolov5(view=False, draw=False)
+
+# Load classifier
+clasp_glasses_classifier = Clasp_glasses_classifier()
 
 # Take in base64 string and return cv image
 def stringToRGB(base64_string):
@@ -52,7 +59,6 @@ async def user_video_capture(request):
             await ws_current.close()
         else:
            break
-
     return ws_current
 
 
@@ -65,18 +71,40 @@ async def rtsp_detection_stream(request):
     await ws_current.prepare(request)
     await ws_current.send_json({'action': 'connect'})
 
-    # vcap = cv2.VideoCapture("rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov")
-    vcap = cv2.VideoCapture("../../data/Safety_Full_Hat_and_Vest.mp4")
+    vcap = cv2.VideoCapture("/home/nikolay/workspace/15.HardHat/data/videos/video_2020-11-12_12-53-31.mp4")
+    # vcap = cv2.VideoCapture("rtsp://admin:admin@90.188.118.248:554")
+
     while (True):
         ret, frame = vcap.read()
-        bboxes_xyx2y2, labels, frame_processed = hardhat_detector.predict(frame)
-        ret, jpeg = cv2.imencode('.jpg', frame_processed)
-        # Send back image in bytes
-        await ws_current.send_bytes(data=jpeg.tobytes())
+        if ret:
+            # Inference part DETECTOR
+            bboxes_xyx2y2, labels, frame_processed = hardhat_detector.predict(frame)
+
+            # Inference part CLASSIFIER
+            clasps_list = []
+            glasses_list = []
+            for num in range(len(bboxes_xyx2y2)):
+                bbox = bboxes_xyx2y2[num]
+                xmin, ymin, xmax, ymax = int(bbox[0]), int(bbox[1]), int(bbox[2]), int(bbox[3])
+                crop = frame[ymin:ymax, xmin:xmax]
+                clasp, glasses = clasp_glasses_classifier.predict(crop)
+                clasps_list.append(clasp)
+                glasses_list.append(glasses)
+
+
+                # Draw
+                label = labels[num]
+                text = f'{label}_{clasp}_{glasses}'
+                plot_one_box(bbox, frame, label=text, color=[53, 165, 181], line_thickness=3)
+
+
+
+            ret, jpeg = cv2.imencode('.jpg', frame_processed)
+            # Send back image in bytes
+            await ws_current.send_bytes(data=jpeg.tobytes())
 
     # at closing delete from WS list
     log.info('user disconnected.')
-    # Return
     return ws_current
 
 

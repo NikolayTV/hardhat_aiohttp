@@ -33,6 +33,19 @@ class HardHat_analyzer(Resource):
         # Inference part
         bboxes_xyx2y2, labels = self.hardhat_detector.predict(img_ori)
 
+        # Inference part CLASSIFIER
+        clasps_list = []
+        glasses_list = []
+        for num in range(len(bboxes_xyx2y2)):
+            bbox = bboxes_xyx2y2[num]
+            xmin, ymin, xmax, ymax = int(bbox[0]), int(bbox[1]), int(bbox[2]), int(bbox[3])
+            crop = img_ori[ymin:ymax, xmin:xmax]
+            clasp, glasses = self.clasp_glasses_classifier.predict(crop)
+            clasps_list.append(clasp)
+            glasses_list.append(glasses)
+
+
+
         # Output Json construction
         heads_amount = len(bboxes_xyx2y2)
         self.output['heads_amount'] = heads_amount
