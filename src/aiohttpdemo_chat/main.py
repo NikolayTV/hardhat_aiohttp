@@ -2,6 +2,8 @@ import logging
 import jinja2
 import aiohttp_jinja2
 from aiohttp import web
+import sys
+sys.path.append('../')
 from aiohttpdemo_chat.views import index, rtsp_detection_stream
 
 

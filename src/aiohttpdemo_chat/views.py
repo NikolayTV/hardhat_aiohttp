@@ -71,8 +71,8 @@ async def rtsp_detection_stream(request):
     await ws_current.prepare(request)
     await ws_current.send_json({'action': 'connect'})
 
-    vcap = cv2.VideoCapture("/home/nikolay/workspace/15.HardHat/data/videos/video_2020-11-12_12-53-31.mp4")
-    # vcap = cv2.VideoCapture("rtsp://admin:admin@90.188.118.248:554")
+    # vcap = cv2.VideoCapture("/home/nikolay/workspace/15.HardHat/data/videos/video_2020-11-12_12-53-31.mp4")
+    vcap = cv2.VideoCapture("rtsp://admin:admin@90.188.118.248:554")
 
     while (True):
         ret, frame = vcap.read()

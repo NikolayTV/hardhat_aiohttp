@@ -20,17 +20,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3b492c-6697-4a83-91a8-081c4c2d9b02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CvWebStand.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CvWebStand.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nginx/api.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/nginx/api.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Safety_Full_Hat_and_Vest.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/Safety_Full_Hat_and_Vest.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/demo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/demo.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-override.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init-letsencrypt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/init-letsencrypt.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/best.pt" beforeDir="false" afterPath="$PROJECT_DIR$/models/best.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hardhat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/hardhat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/nginx.prod.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.prod.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/not-zip-safe" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/not-zip-safe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat/foo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat/foo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat/some_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat/some_image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat/templates/rtsp_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat/templates/rtsp_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat/templates/video_capture.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat/templates/video_capture.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aiohttpdemo_chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiohttpdemo_chat/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/HardHat_detection_yolov5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/HardHat_detection_yolov5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/gunicorn.conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/gunicorn.conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/hardhat_classifier_fastai.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/hardhat_classifier_fastai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/experimental.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/experimental.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/export.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/hub/yolov3-spp.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/hub/yolov3-spp.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/hub/yolov5-fpn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/hub/yolov5-fpn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/hub/yolov5-panet.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/hub/yolov5-panet.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/yolov5l.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/yolov5l.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/yolov5m.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/yolov5m.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/yolov5s.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/yolov5s.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models/yolov5x.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/models/yolov5x.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils/activations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils/activations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils/evolve.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils/evolve.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils/google_app_engine/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils/google_app_engine/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils/google_app_engine/additional_requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils/google_app_engine/additional_requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils/google_app_engine/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils/google_app_engine/app.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils/google_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils/google_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils/torch_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils/torch_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/test_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/test_chat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +107,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../15.HardHat/My_Hardhat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MERLIN_CO/02.Podroski/School" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,13 +138,21 @@
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="771" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1605160023546" />
-    <state x="1096" y="490" width="424" height="484" key="FileChooserDialogImpl" timestamp="1605343286907">
+    <state x="1096" y="490" width="424" height="484" key="FileChooserDialogImpl" timestamp="1605615906938">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
-    <state x="1096" y="490" width="424" height="484" key="FileChooserDialogImpl/67.27.2493.1413@67.27.2493.1413" timestamp="1605343286907" />
+    <state x="1096" y="490" width="424" height="484" key="FileChooserDialogImpl/67.27.2493.1413@67.27.2493.1413" timestamp="1605615906938" />
+    <state x="802" y="367" key="SettingsEditor" timestamp="1605524760177">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="802" y="367" key="SettingsEditor/67.27.2493.1413@67.27.2493.1413" timestamp="1605524760177" />
     <state x="1004" y="471" width="618" height="522" key="find.popup" timestamp="1604735553981">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="1004" y="471" width="618" height="522" key="find.popup/67.27.2493.1413@67.27.2493.1413" timestamp="1604735553981" />
+    <state x="976" y="347" key="search.everywhere.popup" timestamp="1605524894440">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="976" y="347" key="search.everywhere.popup/67.27.2493.1413@67.27.2493.1413" timestamp="1605524894440" />
   </component>
 </project>
